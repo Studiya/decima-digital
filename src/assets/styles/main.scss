@@ -1,9 +1,12 @@
-@import "./utils/variables";
+@import "utils/variables";
+@import "utils/mixins";
 // @import "./utils/fonts";
-@import "./utils/modifiers";
+@import "utils/modifiers";
 
-@import "./base";
+@import "base";
 
-@import "./layouts/header";
-@import "./layouts/buttons";
+@import "layouts/header";
+@import "layouts/buttons";
 // @import "./layouts/footer";
+
+@import "components/main-hero-section";

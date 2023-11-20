@@ -1,13 +1,22 @@
 .btn {
+  font-family: $font-os;
   font-size: 18px;
   font-weight: 700;
   letter-spacing: 0.54px;
   border: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  @include transition((color, background-color), 0.3s, ease-out, 0s);
 
   &-light {
     color: var(--color-orange);
     background-color: var(--color-light);
     border: 1px solid var(--color-orange);
+
+    &:hover {
+      color: var(--color-light);
+      background-color: var(--color-orange);
+    }
   }
 
   &-dark {
