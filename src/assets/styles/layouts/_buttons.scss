@@ -1,0 +1,22 @@
+.btn {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.54px;
+  border: none;
+
+  &-light {
+    color: var(--color-orange);
+    background-color: var(--color-light);
+    border: 1px solid var(--color-orange);
+  }
+
+  &-dark {
+    color: var(--color-light);
+    background-color: var(--color-dark);
+  }
+
+  &-orange {
+    color: var(--color-light);
+    background-color: var(--color-orange);
+  }
+}

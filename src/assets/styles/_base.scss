@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+body {
+  color: var(--color-dark);
+  line-height: normal;
+  font-size: 18px;
+  font-family: $font-os;
+  font-weight: 400;
+}
+
+ul {
+  list-style-type: none;
+}
+
+address {
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 800;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 700;
+}
