@@ -1,5 +1,5 @@
-@mixin flex($direction, $justify, $align, $gap) {
-  display: flex;
+@mixin flex($flex, $direction, $justify, $align, $gap) {
+  display: $flex;
   flex-direction: $direction;
   justify-content: $justify;
   align-items: $align;
@@ -11,4 +11,10 @@
   transition-duration: $duration;
   transition-timing-function: $easing;
   transition-delay: $delay;
+}
+
+@mixin backgroundSettings($pos, $size, $rep) {
+  background-position: $pos;
+  background-size: $size;
+  background-repeat: $rep;
 }

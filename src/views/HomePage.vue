@@ -1,6 +1,6 @@
 <template>
   <main>
-    <section class="hero"></section>
+    <MainHero />
     <section class="services"></section>
     <section class="anticovid"></section>
     <section class="clients"></section>
@@ -13,6 +13,8 @@
   </main>
 </template>
 
-<script setup defineOptions="HomePage"></script>
+<script setup>
+import MainHero from '../components/sections/MainHero.vue'
+</script>
 
 <style lang="scss" scoped></style>
