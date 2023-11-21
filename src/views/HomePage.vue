@@ -1,9 +1,11 @@
 <template>
-  <main>
+  <main class="main-page">
     <MainHero />
-    <section class="services"></section>
-    <section class="anticovid"></section>
-    <section class="clients"></section>
+    <div class="decor-wrapper">
+      <MainServices />
+      <section class="anticovid"></section>
+      <section class="clients"></section>
+    </div>
     <section class="feedbacks"></section>
     <section class="cases"></section>
     <section class="cases"></section>
@@ -15,6 +17,7 @@
 
 <script setup>
 import MainHero from '../components/sections/MainHero.vue'
+import MainServices from '../components/sections/MainServices.vue'
 </script>
 
 <style lang="scss" scoped></style>

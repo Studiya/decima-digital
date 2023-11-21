@@ -1,6 +1,6 @@
 <template>
   <section class="main-hero">
-    <div class="main-hero__wrapper">
+    <div class="main-hero__wrapper wrapper">
       <h1 class="main-hero__title">
         Work With The Most Skilled <span class="accent">Magento Team</span>
       </h1>

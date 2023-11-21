@@ -1,14 +1,14 @@
 .main-hero {
-  background-image: url(assets/imgs/main-hero-section/hero-bg.webp);
+  background-image: url(@/assets/imgs/main-hero-section/hero-bg.webp);
   @include backgroundSettings(center top, cover, no-repeat);
   position: relative;
 
   @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-    background-image: url(../../assets/imgs/main-hero-section/hero-bg@2x.webp);
+    background-image: url(@/assets/imgs/main-hero-section/hero-bg@2x.webp);
   }
 
   &__wrapper {
-    padding: 196px 84px 160px;
+    padding: 196px 0 160px 84px;
   }
 
   &__title {

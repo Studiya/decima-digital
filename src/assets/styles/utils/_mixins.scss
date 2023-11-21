@@ -18,3 +18,9 @@
   background-size: $size;
   background-repeat: $rep;
 }
+
+@mixin position($pos, $top, $right, $bottom, $left, $z-index) {
+  position: $pos;
+  inset: $top $right $bottom $left;
+  z-index: $z-index;
+}
