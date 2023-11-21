@@ -13,7 +13,8 @@
   transition-delay: $delay;
 }
 
-@mixin backgroundSettings($pos, $size, $rep) {
+@mixin backgroundImg($image, $pos, $size, $rep) {
+  background-image: url($image);
   background-position: $pos;
   background-size: $size;
   background-repeat: $rep;

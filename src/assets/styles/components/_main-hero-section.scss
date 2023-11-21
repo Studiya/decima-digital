@@ -1,6 +1,6 @@
 .main-hero {
-  background-image: url(@/assets/imgs/main-hero-section/hero-bg.webp);
-  @include backgroundSettings(center top, cover, no-repeat);
+  // background-image: url(@/assets/imgs/main-hero-section/hero-bg.webp);
+  @include backgroundImg("@/assets/imgs/main-hero-section/hero-bg.webp", center top, cover, no-repeat);
   position: relative;
 
   @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
