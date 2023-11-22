@@ -1,8 +1,10 @@
 .anticovid {
+  padding-bottom: 240px;
   &__wrapper {
     padding: calc(36px - 20px) 40px 0;
     position: relative;
-    @include flex(flex, row, space-around, center, unset);
+    z-index: 1;
+    @include flex(flex, row, space-around, center, nowrap, unset);
   }
 
   &__bg {

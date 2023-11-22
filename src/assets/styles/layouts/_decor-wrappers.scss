@@ -1,0 +1,11 @@
+.decor-wrapper {
+  position: relative;
+
+  &_first {
+    @include backgroundImg("@/assets/imgs/decor-bg-1.webp", center 80px, cover, no-repeat);
+  }
+
+  &_second {
+    margin-top: -140px;
+  }
+}

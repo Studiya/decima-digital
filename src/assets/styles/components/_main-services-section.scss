@@ -1,7 +1,7 @@
 .main-services {
   &__wrapper {
     padding: 90px 0 120px;
-    @include flex(flex, column, flex-start, center, unset);
+    @include flex(flex, column, flex-start, center, nowrap, unset);
   }
 
   &__head {

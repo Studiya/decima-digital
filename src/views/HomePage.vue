@@ -1,14 +1,15 @@
 <template>
   <main class="main-page">
-    <MainHero />
-    <div class="decor-wrapper">
-      <MainServices />
+    <MainHeroSection />
+    <div class="decor-wrapper decor-wrapper_first">
+      <MainServicesSection />
       <AnticovidSection />
-      <section class="clients"></section>
     </div>
-    <section class="feedbacks"></section>
-    <section class="cases"></section>
-    <section class="cases"></section>
+    <div class="decor-wrapper decor-wrapper_second">
+      <MainPartnersSection />
+      <section class="feedbacks"></section>
+      <section class="cases"></section>
+    </div>
     <section class="advantages"></section>
     <section class="achievements"></section>
     <section class="blog"></section>
@@ -16,9 +17,10 @@
 </template>
 
 <script setup>
-import MainHero from '../components/sections/MainHero.vue'
-import MainServices from '../components/sections/MainServices.vue'
+import MainHeroSection from '../components/sections/MainHero.vue'
+import MainServicesSection from '../components/sections/MainServices.vue'
 import AnticovidSection from '../components/sections/AnticovidSection.vue'
+import MainPartnersSection from '../components/sections/MainPartners.vue'
 </script>
 
 <style lang="scss" scoped></style>

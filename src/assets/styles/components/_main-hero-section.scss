@@ -39,7 +39,7 @@
   }
 
   &__partners {
-    @include flex(inline-flex, row, space-between, center, 40px);
+    @include flex(inline-flex, row, space-between, center, nowrap, 40px);
   }
 
   &__logo {

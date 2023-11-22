@@ -7,7 +7,7 @@
 
   &__wrapper {
     padding: 10px 40px;
-    @include flex(flex, row, space-between, center, unset);
+    @include flex(flex, row, space-between, center, nowrap, unset);
   }
 
   &__logo {
@@ -16,11 +16,11 @@
   }
 
   &__content {
-    @include flex(flex, row, space-between, center, 40px);
+    @include flex(flex, row, space-between, center, nowrap, 40px);
   }
 
   &__nav {
-    @include flex(flex, row, space-between, center, 30px);
+    @include flex(flex, row, space-between, center, nowrap, 30px);
 
     a {
       color: var(--color-light);
