@@ -8,7 +8,7 @@
     <div class="decor-wrapper decor-wrapper_second">
       <MainPartnersSection />
       <FeedbacksSection />
-      <section class="cases"></section>
+      <CasesSection />
     </div>
     <section class="advantages"></section>
     <section class="achievements"></section>
@@ -22,6 +22,7 @@ import MainServicesSection from '../components/sections/MainServices.vue'
 import AnticovidSection from '../components/sections/AnticovidSection.vue'
 import MainPartnersSection from '../components/sections/MainPartners.vue'
 import FeedbacksSection from '../components/sections/FeedbacksSection.vue'
+import CasesSection from '../components/sections/CasesSection.vue'
 </script>
 
 <style lang="scss" scoped></style>
