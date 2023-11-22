@@ -1,0 +1,18 @@
+ol.carousel__pagination {
+  margin-top: 30px;
+  @include flex(inline-flex, row, space-between, center, nowrap, 14px);
+}
+
+.carousel__pagination .carousel__pagination-button {
+  width: 10px;
+  height: 10px;
+  background-color: var(--color-grey);
+  border-radius: 100%;
+  &:after {
+    display: none;
+  }
+
+  &--active {
+    background-color: var(--color-orange);
+  }
+}
