@@ -7,7 +7,7 @@
     </div>
     <div class="decor-wrapper decor-wrapper_second">
       <MainPartnersSection />
-      <section class="feedbacks"></section>
+      <FeedbacksSection />
       <section class="cases"></section>
     </div>
     <section class="advantages"></section>
@@ -21,6 +21,7 @@ import MainHeroSection from '../components/sections/MainHero.vue'
 import MainServicesSection from '../components/sections/MainServices.vue'
 import AnticovidSection from '../components/sections/AnticovidSection.vue'
 import MainPartnersSection from '../components/sections/MainPartners.vue'
+import FeedbacksSection from '../components/sections/FeedbacksSection.vue'
 </script>
 
 <style lang="scss" scoped></style>
