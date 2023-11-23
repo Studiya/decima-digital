@@ -2,10 +2,25 @@
   position: relative;
 
   &_first {
-    @include backgroundImg("@/assets/imgs/decor-bg-1.webp", center 80px, cover, no-repeat);
+    @include backgroundImg("@/assets/imgs/decor/decor-bg-1.webp", center 80px, cover, no-repeat);
   }
 
   &_second {
     margin-top: -140px;
+    position: relative;
+
+    .decor-wrapper__left {
+      width: 315px;
+      height: 881px;
+      @include backgroundImg("@/assets/imgs/decor/left-decor-bg-2.webp", center, cover, no-repeat);
+      @include position(absolute, calc(50% - 440px), auto, auto, 0, -1);
+    }
+
+    .decor-wrapper__right {
+      width: 358px;
+      height: 881px;
+      @include backgroundImg("@/assets/imgs/decor/right-decor-bg-2.webp", center, cover, no-repeat);
+      @include position(absolute, calc(50% - 440px), 0, auto, auto, -1);
+    }
   }
 }

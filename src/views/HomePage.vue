@@ -9,6 +9,8 @@
       <MainPartnersSection />
       <FeedbacksSection />
       <CasesSection />
+      <div class="decor-wrapper__left"></div>
+      <div class="decor-wrapper__right"></div>
     </div>
     <section class="advantages"></section>
     <section class="achievements"></section>
