@@ -12,7 +12,7 @@
       <div class="decor-wrapper__left"></div>
       <div class="decor-wrapper__right"></div>
     </div>
-    <section class="advantages"></section>
+    <AdvantagesSection />
     <section class="achievements"></section>
     <section class="blog"></section>
   </main>
@@ -25,6 +25,7 @@ import AnticovidSection from '../components/sections/AnticovidSection.vue'
 import MainPartnersSection from '../components/sections/MainPartners.vue'
 import FeedbacksSection from '../components/sections/FeedbacksSection.vue'
 import CasesSection from '../components/sections/CasesSection.vue'
+import AdvantagesSection from '../components/sections/AdvantagesSection.vue'
 </script>
 
 <style lang="scss" scoped></style>
