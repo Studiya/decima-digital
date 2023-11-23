@@ -16,3 +16,25 @@ ol.carousel__pagination {
     background-color: var(--color-orange);
   }
 }
+
+button.carousel__prev,
+button.carousel__next {
+  width: 23px;
+  height: 46px;
+  @include backgroundImg("src/assets/imgs/carousel-arrow.svg", center, cover, no-repeat);
+
+  svg {
+    display: none;
+  }
+}
+
+button.carousel__prev {
+  left: -54px;
+  top: 50%;
+}
+
+button.carousel__next {
+  transform: rotate(180deg);
+  top: calc(50% - 23px);
+  right: -54px;
+}
