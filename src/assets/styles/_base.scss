@@ -14,10 +14,12 @@ body {
   font-size: 18px;
   font-family: $font-os;
   font-weight: 400;
+  max-width: 1360px;
+  margin: 0 auto;
+  position: relative;
 }
 
 .wrapper {
-  max-width: 1360px;
   margin: 0 auto;
 }
 
