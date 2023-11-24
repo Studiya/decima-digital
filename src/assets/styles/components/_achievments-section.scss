@@ -1,0 +1,22 @@
+.achievments {
+  margin-bottom: 110px;
+
+  &__wrapper {
+    max-width: 1440px;
+  }
+
+  &__title {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  &__inner {
+    max-width: 877px;
+    margin: 0 auto;
+    @include flex(flex, row, center, center, nowrap, 148px);
+  }
+
+  &__list {
+    @include flex(flex, row, center, center, nowrap, 60px);
+  }
+}
