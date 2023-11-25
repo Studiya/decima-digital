@@ -1,6 +1,6 @@
 @import "utils/variables";
 @import "utils/mixins";
-// @import "./utils/fonts";
+@import "utils/fonts";
 @import "utils/modifiers";
 
 @import "base";
@@ -9,7 +9,7 @@
 @import "layouts/buttons";
 @import "layouts/decor-wrappers";
 @import "layouts/carousel-plagin";
-// @import "./layouts/footer";
+@import "./layouts/footer";
 
 @import "components/main-hero-section";
 @import "components/main-services-section";
