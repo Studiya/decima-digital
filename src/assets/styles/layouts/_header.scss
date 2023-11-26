@@ -4,6 +4,7 @@
   left: 0;
   right: 0;
   z-index: 1;
+  background-color: blue;
 
   &__wrapper {
     padding: 10px 40px;
@@ -13,6 +14,8 @@
   &__logo {
     display: inline-block;
     width: 108px;
+    height: 40px;
+    fill: var(--color-light);
   }
 
   &__content {
@@ -21,6 +24,10 @@
 
   &__nav {
     @include flex(flex, row, space-between, center, nowrap, 30px);
+
+    @media screen and (max-width: $bp-desktop) {
+      display: none;
+    }
 
     a {
       color: var(--color-light);
@@ -38,5 +45,29 @@
 
   &__btn {
     padding: 12px 36px;
+
+    @media screen and (max-width: $bp-tablet) {
+      display: none;
+    }
+  }
+
+  &__menu-btn {
+    display: none;
+    background-color: transparent;
+    border: none;
+    width: 48px;
+    height: 48px;
+    fill: var(--color-light);
+    padding: 0;
+    cursor: pointer;
+
+    @media screen and (max-width: $bp-desktop) {
+      display: block;
+    }
+
+    &-icon {
+      width: 100%;
+      height: 100%;
+    }
   }
 }
