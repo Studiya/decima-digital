@@ -2,6 +2,18 @@
   &__wrapper {
     padding: 90px 0 120px;
     @include flex(flex, column, flex-start, center, nowrap, unset);
+
+    @media screen and (max-width: $bp-desktop) {
+      padding: 60px 0 90px;
+    }
+
+    @media screen and (max-width: $bp-tablet) {
+      padding: 60px 20px 90px;
+    }
+
+    @media screen and (max-width: $bp-mobile) {
+      padding: 40px 0 60px;
+    }
   }
 
   &__head {
@@ -11,6 +23,16 @@
   &__subtitle {
     font-size: 20px;
     margin-bottom: 94px;
+
+    @media screen and (max-width: $bp-desktop) {
+      font-size: 18px;
+      margin-bottom: 50px;
+    }
+
+    @media screen and (max-width: $bp-tablet) {
+      font-size: 16px;
+      margin-bottom: 40px;
+    }
   }
 
   &__title {
@@ -22,11 +44,28 @@
     width: 1130px;
     height: 668px;
     margin-bottom: 50px;
+
+    @media screen and (max-width: $bp-desktop) {
+      max-width: 786px;
+      width: auto;
+      height: auto;
+    }
+
+    @media screen and (max-width: $bp-desktop) {
+      margin-bottom: 40px;
+    }
   }
 
   &__item {
     background-color: var(--color-light);
     box-shadow: 0px 6px 20px 0px rgba(2, 2, 2, 0.08);
+
+    @media screen and (max-width: $bp-desktop) {
+      width: auto !important;
+      height: auto !important;
+      position: static !important;
+      padding: 20px 20px !important;
+    }
 
     &.top-left {
       width: 679px;
@@ -60,6 +99,10 @@
       line-height: 1.2;
       color: var(--color-orange);
       margin-bottom: 20px;
+
+      @media screen and (max-width: $bp-desktop) {
+        margin-bottom: 10px;
+      }
     }
   }
 

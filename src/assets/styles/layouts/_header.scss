@@ -4,11 +4,14 @@
   left: 0;
   right: 0;
   z-index: 1;
-  background-color: blue;
 
   &__wrapper {
     padding: 10px 40px;
     @include flex(flex, row, space-between, center, nowrap, unset);
+
+    @media screen and (max-width: $bp-mobile) {
+      padding: 10px 20px;
+    }
   }
 
   &__logo {

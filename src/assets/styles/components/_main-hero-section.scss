@@ -1,5 +1,4 @@
 .main-hero {
-  // background-image: url(@/assets/imgs/main-hero-section/hero-bg.webp);
   @include backgroundImg("@/assets/imgs/main-hero-section/hero-bg.webp", center top, cover, no-repeat);
   position: relative;
 
@@ -7,8 +6,24 @@
     background-image: url(@/assets/imgs/main-hero-section/hero-bg@2x.webp);
   }
 
+  @media screen and (max-width: $bp-tablet) {
+    min-height: 100vh;
+  }
+
+  @media screen and (max-width: $bp-tablet) {
+    background-position: 65% top;
+  }
+
   &__wrapper {
     padding: 196px 0 160px 84px;
+
+    @media screen and (max-width: $bp-tablet) {
+      padding: 96px 20px 0 44px;
+    }
+
+    @media screen and (max-width: $bp-mobile) {
+      padding: 96px 20px 60px 20px;
+    }
   }
 
   &__title {
@@ -17,6 +32,14 @@
     font-weight: 600;
     line-height: 1.3;
     margin-bottom: 40px;
+
+    @media screen and (max-width: $bp-tablet) {
+      margin-bottom: 30px;
+    }
+
+    @media screen and (max-width: $bp-mobile) {
+      margin-bottom: 20px;
+    }
 
     .accent {
       -webkit-text-fill-color: transparent;
@@ -28,6 +51,15 @@
     color: var(--color-light);
     font-size: 20px;
     margin-bottom: 47px;
+
+    @media screen and (max-width: $bp-tablet) {
+      font-size: 18px;
+      margin-bottom: 40px;
+    }
+
+    @media screen and (max-width: $bp-mobile) {
+      font-size: 16px;
+    }
   }
 
   &__btn {
@@ -36,10 +68,30 @@
     font-size: 24px;
     letter-spacing: normal;
     margin-bottom: 130px;
+
+    @media screen and (max-width: $bp-tablet) {
+      padding: 18px 30px;
+      font-size: 20px;
+      margin-bottom: 100px;
+    }
+
+    @media screen and (max-width: $bp-mobile) {
+      padding: 16px 26px;
+      font-size: 16px;
+      margin-bottom: 30px;
+    }
   }
 
   &__partners {
     @include flex(inline-flex, row, space-between, center, nowrap, 40px);
+
+    @media screen and (max-width: $bp-tablet) {
+      gap: 20px;
+    }
+
+    @media screen and (max-width: $bp-mobile) {
+      @include flex(inline-flex, column, flex-start, flex-start, nowrap, 15px);
+    }
   }
 
   &__logo {
@@ -47,15 +99,40 @@
 
     &_magento {
       width: 206px;
+
+      @media screen and (max-width: $bp-tablet) {
+        width: 140px;
+      }
+
+      @media screen and (max-width: $bp-mobile) {
+        width: 140px;
+      }
     }
 
     &_microsoft {
       width: 126px;
       align-self: flex-end;
+
+      @media screen and (max-width: $bp-tablet) {
+        width: 100px;
+      }
+
+      @media screen and (max-width: $bp-mobile) {
+        width: 80px;
+        align-self: flex-start;
+      }
     }
 
     &_adobe {
       width: 160px;
+
+      @media screen and (max-width: $bp-tablet) {
+        width: 120px;
+      }
+
+      @media screen and (max-width: $bp-mobile) {
+        width: 100px;
+      }
     }
 
     a {

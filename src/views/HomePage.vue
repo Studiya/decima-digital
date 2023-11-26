@@ -3,9 +3,9 @@
     <MainHeroSection />
     <div class="decor-wrapper decor-wrapper_first">
       <MainServicesSection />
-      <AnticovidSection />
+      <!-- <AnticovidSection /> -->
     </div>
-    <div class="decor-wrapper decor-wrapper_second">
+    <!-- <div class="decor-wrapper decor-wrapper_second">
       <MainPartnersSection />
       <FeedbacksSection />
       <CasesSection />
@@ -14,7 +14,7 @@
     </div>
     <AdvantagesSection />
     <AchievmentsSection />
-    <BlogSection />
+    <BlogSection /> -->
   </main>
 </template>
 
