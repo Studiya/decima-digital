@@ -1,10 +1,27 @@
 .anticovid {
   padding-bottom: 240px;
+
+  @media screen and (max-width: $bp-desktop) {
+    padding-bottom: 200px;
+  }
+
+  @media screen and (max-width: $bp-mobile) {
+    padding-bottom: 190px;
+  }
+
   &__wrapper {
     padding: calc(36px - 20px) 40px 0;
     position: relative;
     z-index: 1;
-    @include flex(flex, row, space-around, center, nowrap, unset);
+    @include flex(flex, row, space-around, center, nowrap, 20px);
+
+    @media screen and (max-width: $bp-desktop) {
+      padding: 20px;
+    }
+
+    @media screen and (max-width: $bp-desktop) {
+      text-align: center;
+    }
   }
 
   &__bg {
@@ -36,5 +53,14 @@
     max-width: 530px;
     position: relative;
     bottom: -20px;
+
+    @media screen and (max-width: $bp-desktop) {
+      max-width: 400px;
+      bottom: 0;
+    }
+
+    @media screen and (max-width: $bp-tablet) {
+      display: none;
+    }
   }
 }

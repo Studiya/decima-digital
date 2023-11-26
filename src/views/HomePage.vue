@@ -3,16 +3,16 @@
     <MainHeroSection />
     <div class="decor-wrapper decor-wrapper_first">
       <MainServicesSection />
-      <!-- <AnticovidSection /> -->
+      <AnticovidSection />
     </div>
-    <!-- <div class="decor-wrapper decor-wrapper_second">
+    <div class="decor-wrapper decor-wrapper_second">
       <MainPartnersSection />
       <FeedbacksSection />
       <CasesSection />
       <div class="decor-wrapper__left"></div>
       <div class="decor-wrapper__right"></div>
     </div>
-    <AdvantagesSection />
+    <!-- <AdvantagesSection />
     <AchievmentsSection />
     <BlogSection /> -->
   </main>

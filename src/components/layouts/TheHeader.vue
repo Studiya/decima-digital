@@ -8,7 +8,7 @@
       </a>
       <div class="header__content">
         <ul class="header__nav">
-          <li><a href="#">Magento Services</a></li>
+          <li><a href="#main-services">Magento Services</a></li>
           <li><a href="#">Who we are</a></li>
           <li><a href="#">What we do</a></li>
           <li><a href="#">Our Work</a></li>
@@ -47,22 +47,52 @@
         <nav class="mobile-menu__nav">
           <ul class="mobile-menu__nav-list">
             <li class="mobile-menu__nav-item">
-              <a class="mobile-menu__nav-link" href="#">Magento Services</a>
+              <a
+                @click="mobileMenuIsOpen = !mobileMenuIsOpen"
+                class="mobile-menu__nav-link"
+                href="#main-services"
+                >Magento Services</a
+              >
             </li>
             <li class="mobile-menu__nav-item">
-              <a class="mobile-menu__nav-link" href="#">Who we are</a>
+              <a
+                @click="mobileMenuIsOpen = !mobileMenuIsOpen"
+                class="mobile-menu__nav-link"
+                href="#"
+                >Who we are</a
+              >
             </li>
             <li class="mobile-menu__nav-item">
-              <a class="mobile-menu__nav-link" href="#">What we do</a>
+              <a
+                @click="mobileMenuIsOpen = !mobileMenuIsOpen"
+                class="mobile-menu__nav-link"
+                href="#"
+                >What we do</a
+              >
             </li>
             <li class="mobile-menu__nav-item">
-              <a class="mobile-menu__nav-link" href="#">Our Work</a>
+              <a
+                @click="mobileMenuIsOpen = !mobileMenuIsOpen"
+                class="mobile-menu__nav-link"
+                href="#"
+                >Our Work</a
+              >
             </li>
             <li class="mobile-menu__nav-item">
-              <a class="mobile-menu__nav-link" href="#">Blog</a>
+              <a
+                @click="mobileMenuIsOpen = !mobileMenuIsOpen"
+                class="mobile-menu__nav-link"
+                href="#"
+                >Blog</a
+              >
             </li>
             <li class="mobile-menu__nav-item">
-              <a class="mobile-menu__nav-link" href="#">Careers</a>
+              <a
+                @click="mobileMenuIsOpen = !mobileMenuIsOpen"
+                class="mobile-menu__nav-link"
+                href="#"
+                >Careers</a
+              >
             </li>
           </ul>
         </nav>
