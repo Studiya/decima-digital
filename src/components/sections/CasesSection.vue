@@ -2,7 +2,7 @@
   <section class="cases">
     <div class="cases__wrapper wrapper">
       <h2 class="cases__title">Case studies</h2>
-      <Carousel v-bind="settings" class="cases__list">
+      <Carousel v-bind="settings" :breakpoints="breakpoints" class="cases__list">
         <Slide class="cases__slide">
           <div class="cases__item">
             <img
@@ -89,6 +89,7 @@
         </Slide>
         <template #addons>
           <Navigation />
+          <Pagination />
         </template>
       </Carousel>
       <button class="cases__btn btn btn-orange" type="button">Learn More</button>
@@ -98,11 +99,19 @@
 
 <script setup>
 import 'vue3-carousel/dist/carousel.css'
-import { Carousel, Slide, Navigation } from 'vue3-carousel'
+import { Carousel, Slide, Navigation, Pagination } from 'vue3-carousel'
 
 const settings = {
-  itemsToShow: 2,
-  itemsToScroll: 2,
-  snapAlign: 'start'
+  itemsToShow: 1,
+  itemsToScroll: 1,
+  snapAlign: 'center'
+}
+
+const breakpoints = {
+  1280: {
+    itemsToShow: 2,
+    itemsToScroll: 2,
+    snapAlign: 'start'
+  }
 }
 </script>

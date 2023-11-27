@@ -23,6 +23,10 @@ button.carousel__next {
   height: 46px;
   @include backgroundImg("src/assets/imgs/carousel-arrow.svg", center, cover, no-repeat);
 
+  @media screen and (max-width: $bp-tablet) {
+    display: none;
+  }
+
   svg {
     display: none;
   }
@@ -31,10 +35,18 @@ button.carousel__next {
 button.carousel__prev {
   left: -54px;
   top: 50%;
+
+  @media screen and (max-width: $bp-desktop) {
+    left: -25px;
+  }
 }
 
 button.carousel__next {
   transform: rotate(180deg);
   top: calc(50% - 23px);
   right: -54px;
+
+  @media screen and (max-width: $bp-desktop) {
+    right: -25px;
+  }
 }

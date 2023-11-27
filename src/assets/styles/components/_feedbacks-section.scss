@@ -1,8 +1,20 @@
 .feedbacks {
   margin-bottom: 160px;
 
+  @media screen and (max-width: $bp-desktop) {
+    margin-bottom: 100px;
+  }
+
+  @media screen and (max-width: $bp-mobile) {
+    margin-bottom: 60px;
+  }
+
   &__wrapper {
     max-width: 900px;
+
+    @media screen and (max-width: $bp-desktop) {
+      padding: 0 20px;
+    }
   }
 
   &__content {
@@ -12,6 +24,10 @@
     text-align: left;
     box-shadow: 0px 1px 6px inset rgba(0, 0, 0, 0.25);
     background-color: var(--color-light);
+
+    @media screen and (max-width: $bp-mobile) {
+      padding: 20px;
+    }
   }
 
   &__title {
@@ -28,5 +44,11 @@
 
   &__text {
     font-size: 14px;
+  }
+
+  &__img {
+    @media screen and (max-width: $bp-tablet) {
+      display: none;
+    }
   }
 }
