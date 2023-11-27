@@ -1,8 +1,8 @@
 .cases {
   margin-bottom: 131px;
 
-  @media screen and (max-width: $bp-mobile) {
-    margin-bottom: 100px;
+  @media screen and (max-width: $bp-desktop) {
+    margin-bottom: 90px;
   }
 
   @media screen and (max-width: $bp-tablet) {

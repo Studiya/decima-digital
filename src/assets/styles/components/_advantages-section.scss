@@ -1,41 +1,104 @@
 .advantages {
   margin-bottom: 112px;
 
+  @media screen and (max-width: $bp-tablet) {
+    margin-bottom: 80px;
+  }
+
+  @media screen and (max-width: $bp-mobile) {
+    margin-bottom: 60px;
+  }
+
   &__wrapper {
     padding: 0 40px;
     @include flex(flex, column, flex-start, center, nowrap, unset);
+
+    @media screen and (max-width: $bp-tablet) {
+      padding: 0 20px;
+    }
+
+    @media screen and (max-width: $bp-mobile) {
+      padding: 0 10px;
+    }
   }
 
   &__title {
     margin-bottom: 30px;
+
+    @media screen and (max-width: $bp-mobile) {
+      margin-bottom: 15px;
+    }
   }
 
   &__subtitle {
     font-size: 20px;
     margin-bottom: 10px;
+    text-align: center;
+
+    @media screen and (max-width: $bp-mobile) {
+      font-size: 18px;
+      margin-bottom: 15px;
+    }
   }
 
   &__text {
     font-weight: 600;
     margin-bottom: 40px;
+    text-align: center;
+
+    @media screen and (max-width: $bp-mobile) {
+      margin-bottom: 30px;
+    }
   }
 
   &__list {
-    @include flex(flex, row, space-between, center, wrap, 75px);
+    @include flex(flex, row, space-between, flex-start, wrap, 75px);
     margin-bottom: 33px;
+
+    @media screen and (max-width: $bp-desktop) {
+      gap: 40px;
+    }
+
+    @media screen and (max-width: $bp-tablet) {
+      @include flex(flex, column, flex-start, center, wrap, 40px);
+      max-width: 480px;
+    }
+
+    @media screen and (max-width: $bp-mobile) {
+      gap: 20px;
+    }
   }
 
   &__item {
     flex-basis: calc((100% - 75px * 2) / 3);
     flex-shrink: 0;
 
+    @media screen and (max-width: $bp-desktop) {
+      flex-basis: calc((100% - 40px * 2) / 3);
+    }
+
+    @media screen and (max-width: $bp-tablet) {
+      box-shadow: 0px 6px 20px 0px rgba(2, 2, 2, 0.1);
+      padding: 20px;
+    }
+
     &-img {
       margin-bottom: 28px;
+
+      @media screen and (max-width: $bp-tablet) {
+        display: block;
+        margin: 0 auto 18px;
+      }
     }
 
     &-title {
       font-size: 20px;
       margin-bottom: 20px;
+
+      @media screen and (max-width: $bp-tablet) {
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
     }
 
     &-descr {
@@ -45,5 +108,9 @@
 
   &__btn {
     padding: 22px 50px;
+
+    @media screen and (max-width: $bp-tablet) {
+      padding: 18px 30px;
+    }
   }
 }
