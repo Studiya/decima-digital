@@ -4,7 +4,7 @@
       <h2 class="achievments__title">Featured at</h2>
       <div class="achievments__inner">
         <div class="achievments__content">
-          <ul class="achievments__list">
+          <ul class="achievments__list achievments__list_left">
             <li class="achievments__item">
               <img
                 src="src/assets/imgs/achievments-section/ecommerce-achiev.webp"
@@ -18,7 +18,7 @@
               />
             </li>
           </ul>
-          <ul class="achievments__list">
+          <ul class="achievments__list achievments__list_right">
             <li class="achievments__item">
               <img
                 src="src/assets/imgs/achievments-section/clutch-achiev.webp"

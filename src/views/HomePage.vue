@@ -13,8 +13,8 @@
       <div class="decor-wrapper__right"></div>
     </div>
     <AdvantagesSection />
-    <!-- <AchievmentsSection />
-    <BlogSection /> -->
+    <AchievmentsSection />
+    <!-- <BlogSection /> -->
   </main>
 </template>
 

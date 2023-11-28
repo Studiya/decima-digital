@@ -8,6 +8,10 @@
   &__title {
     text-align: center;
     margin-bottom: 40px;
+
+    @media screen and (max-width: $bp-tablet) {
+      margin-bottom: 0;
+    }
   }
 
   &__inner {
@@ -19,9 +23,27 @@
     max-width: 877px;
     margin: 0 auto;
     @include flex(flex, row, center, center, nowrap, 148px);
+
+    @media screen and (max-width: $bp-desktop) {
+      gap: 60px;
+    }
+
+    @media screen and (max-width: $bp-tablet) {
+      @include flex(flex, column, flex-start, center, nowrap, 20px);
+    }
   }
 
   &__list {
-    @include flex(flex, row, center, center, nowrap, 60px);
+    @include flex(flex, row, flex-start, center, nowrap, 60px);
+    min-width: 380px;
+
+    @media screen and (max-width: $bp-desktop) {
+      gap: 40px;
+      min-width: 350px;
+    }
+
+    &_left {
+      justify-content: flex-end;
+    }
   }
 }
