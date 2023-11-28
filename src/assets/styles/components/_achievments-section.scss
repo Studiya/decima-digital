@@ -1,6 +1,10 @@
 .achievments {
   margin-bottom: 110px;
 
+  @media screen and (max-width: $bp-tablet) {
+    margin-bottom: 60px;
+  }
+
   &__wrapper {
     max-width: 1440px;
   }
@@ -8,15 +12,19 @@
   &__title {
     text-align: center;
     margin-bottom: 40px;
-
-    @media screen and (max-width: $bp-tablet) {
-      margin-bottom: 0;
-    }
   }
 
   &__inner {
     @include backgroundImg("src/assets/imgs/achievments-section/achievs-bg.webp", center, content, no-repeat);
     padding: 66px 0 87px;
+
+    @media screen and (max-width: $bp-tablet) {
+      padding: 0;
+    }
+
+    @media screen and (max-width: $bp-mobile) {
+      background-image: none;
+    }
   }
 
   &__content {
@@ -25,25 +33,37 @@
     @include flex(flex, row, center, center, nowrap, 148px);
 
     @media screen and (max-width: $bp-desktop) {
+      justify-content: space-between;
       gap: 60px;
     }
 
     @media screen and (max-width: $bp-tablet) {
-      @include flex(flex, column, flex-start, center, nowrap, 20px);
+      flex-direction: column;
+      justify-content: flex-start;
+      gap: 20px;
     }
   }
 
   &__list {
     @include flex(flex, row, flex-start, center, nowrap, 60px);
-    min-width: 380px;
+    width: 380px;
 
-    @media screen and (max-width: $bp-desktop) {
+    @media screen and (max-width: $bp-mobile) {
       gap: 40px;
-      min-width: 350px;
+      width: 320px;
+    }
+  }
+
+  &__item {
+    flex-basis: calc((100% - 60px) / 2);
+    text-align: center;
+
+    @media screen and (max-width: $bp-mobile) {
+      flex-basis: calc((100% - 40px) / 2);
     }
 
-    &_left {
-      justify-content: flex-end;
+    img {
+      width: 100%;
     }
   }
 }

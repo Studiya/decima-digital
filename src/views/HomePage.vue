@@ -14,7 +14,7 @@
     </div>
     <AdvantagesSection />
     <AchievmentsSection />
-    <!-- <BlogSection /> -->
+    <BlogSection />
   </main>
 </template>
 
