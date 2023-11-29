@@ -3,7 +3,7 @@
     <div class="footer__wrapper wrapper">
       <div class="footer__top">
         <address class="footer__address">
-          <div class="footer__soc">
+          <div class="footer__soc footer__address-item">
             <h3>Follow us</h3>
             <ul class="footer__soc-list">
               <li class="footer__soc-item">
@@ -32,7 +32,7 @@
               </li>
             </ul>
           </div>
-          <div class="footer__contacts">
+          <div class="footer__contacts footer__address-item">
             <h3>Contact us</h3>
             <div class="footer__contacts-inner">
               <ul class="footer__contacts-tels">
@@ -56,7 +56,7 @@
               </ul>
             </div>
           </div>
-          <div class="footer__places">
+          <div class="footer__places footer__address-item">
             <h3>Decima Digital Inc</h3>
             <ul class="footer__places-list">
               <li class="footer__places-item">

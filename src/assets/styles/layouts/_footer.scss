@@ -21,6 +21,27 @@
     padding: 30px 40px 40px;
     @include flex(flex, row, space-between, flex-start, nowrap, 92px);
 
+    @media screen and (max-width: $bp-desktop) {
+      padding: 30px 20px 20px;
+    }
+
+    @media screen and (max-width: $bp-tablet) {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    @media screen and (max-width: $bp-mobile) {
+      flex-direction: column;
+      justify-content: flex-start;
+      gap: 30px;
+    }
+
+    &-item {
+      @media screen and (max-width: $bp-mobile) {
+        flex-basis: 100%;
+      }
+    }
+
     h3 {
       font-size: 20px;
       color: var(--color-orange);
@@ -48,12 +69,21 @@
   &__contacts {
     &-inner {
       @include flex(flex, row, flex-start, flex-start, nowrap, 54px);
+
+      @media screen and (max-width: $bp-desktop) {
+        flex-direction: column;
+        gap: 15px;
+      }
     }
   }
 
   &__places {
     &-list {
       @include flex(flex, row, flex-start, flex-start, wrap, 54px);
+
+      @media screen and (max-width: $bp-desktop) {
+        gap: 20px;
+      }
     }
 
     &-item {
@@ -78,6 +108,10 @@
     background-color: var(--color-orange);
     color: var(--color-light);
 
+    @media screen and (max-width: $bp-mobile) {
+      padding: 17px 20px;
+    }
+
     p {
       display: inline-block;
     }
@@ -85,6 +119,7 @@
 
   &__copyright {
     margin-right: 22px;
+    margin-bottom: 10px;
     font-size: 16px;
   }
 
