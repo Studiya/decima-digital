@@ -1,5 +1,5 @@
 <template>
-  <section class="advantages">
+  <section class="advantages" id="advantages">
     <div class="advantages__wrapper wrapper">
       <h2 class="advantages__title">Why Decima</h2>
       <h3 class="advantages__subtitle">Trust your business needs to a true Magento expert team.</h3>

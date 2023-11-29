@@ -1,5 +1,5 @@
 <template>
-  <section class="blog">
+  <section class="blog" id="blog">
     <div class="blog__wrapper wrapper">
       <h2 class="blog__title">Latest From the Blog</h2>
       <ul class="blog__list">

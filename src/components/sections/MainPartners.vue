@@ -1,5 +1,5 @@
 <template>
-  <section class="main-partners">
+  <section class="main-partners" id="main-partners">
     <div class="main-partners__wrapper wrapper">
       <h2 class="main-partners__title">Companies who trust us</h2>
       <p class="main-partners__subtitle">We've helped many companies reach their business goals</p>

@@ -1,5 +1,5 @@
 <template>
-  <section class="feedbacks">
+  <section class="feedbacks" id="feedbacks">
     <div class="feedbacks__wrapper wrapper">
       <h2 class="is-head-hidden">Feedbacks</h2>
       <carousel v-bind="settings" class="feedbacks__list">

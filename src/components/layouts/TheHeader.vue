@@ -9,12 +9,12 @@
       </a>
       <div class="header__content">
         <ul class="header__nav">
-          <li><a href="#main-services">Magento Services</a></li>
-          <li><a href="#">Who we are</a></li>
-          <li><a href="#">What we do</a></li>
-          <li><a href="#">Our Work</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Careers</a></li>
+          <li><a href="#main-services">Who we are</a></li>
+          <li><a href="#cases">What we do</a></li>
+          <li><a href="#feedbacks">Our Work</a></li>
+          <li><a href="#advantages">Magento Services</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#main-partners">Partners</a></li>
         </ul>
         <button
           @click="mobileMenuIsOpen = !mobileMenuIsOpen"
@@ -52,14 +52,6 @@
                 @click="mobileMenuIsOpen = !mobileMenuIsOpen"
                 class="mobile-menu__nav-link"
                 href="#main-services"
-                >Magento Services</a
-              >
-            </li>
-            <li class="mobile-menu__nav-item">
-              <a
-                @click="mobileMenuIsOpen = !mobileMenuIsOpen"
-                class="mobile-menu__nav-link"
-                href="#"
                 >Who we are</a
               >
             </li>
@@ -67,7 +59,7 @@
               <a
                 @click="mobileMenuIsOpen = !mobileMenuIsOpen"
                 class="mobile-menu__nav-link"
-                href="#"
+                href="#cases"
                 >What we do</a
               >
             </li>
@@ -75,7 +67,7 @@
               <a
                 @click="mobileMenuIsOpen = !mobileMenuIsOpen"
                 class="mobile-menu__nav-link"
-                href="#"
+                href="#feedbacks"
                 >Our Work</a
               >
             </li>
@@ -83,7 +75,15 @@
               <a
                 @click="mobileMenuIsOpen = !mobileMenuIsOpen"
                 class="mobile-menu__nav-link"
-                href="#"
+                href="#advantages"
+                >Magento Services</a
+              >
+            </li>
+            <li class="mobile-menu__nav-item">
+              <a
+                @click="mobileMenuIsOpen = !mobileMenuIsOpen"
+                class="mobile-menu__nav-link"
+                href="#blog"
                 >Blog</a
               >
             </li>
@@ -91,8 +91,8 @@
               <a
                 @click="mobileMenuIsOpen = !mobileMenuIsOpen"
                 class="mobile-menu__nav-link"
-                href="#"
-                >Careers</a
+                href="#main-partners"
+                >Partners</a
               >
             </li>
           </ul>

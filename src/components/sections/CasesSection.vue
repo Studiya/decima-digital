@@ -1,5 +1,5 @@
 <template>
-  <section class="cases">
+  <section class="cases" id="cases">
     <div class="cases__wrapper wrapper">
       <h2 class="cases__title">Case studies</h2>
       <Carousel v-bind="settings" :breakpoints="breakpoints" class="cases__list">
