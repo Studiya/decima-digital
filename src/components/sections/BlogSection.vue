@@ -5,7 +5,7 @@
       <ul class="blog__list">
         <li class="blog__item">
           <img
-            src="src/assets/imgs/blog-section/slice-1.webp"
+            src="/src/assets/imgs/blog-section/slice-1.webp"
             alt="Woman with headphones"
             class="blog__item-img"
           />
@@ -25,7 +25,7 @@
         </li>
         <li class="blog__item">
           <img
-            src="src/assets/imgs/blog-section/slice-2.webp"
+            src="/src/assets/imgs/blog-section/slice-2.webp"
             alt="Man during work"
             class="blog__item-img"
           />
@@ -45,7 +45,7 @@
         </li>
         <li class="blog__item">
           <img
-            src="src/assets/imgs/blog-section/slice-3.webp"
+            src="/src/assets/imgs/blog-section/slice-3.webp"
             alt="Colleagues holding hands"
             class="blog__item-img"
           />

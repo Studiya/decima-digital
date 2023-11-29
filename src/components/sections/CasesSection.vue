@@ -7,7 +7,7 @@
           <div class="cases__item">
             <img
               class="cases__item-img"
-              src="src/assets/imgs/cases-section/case-1.webp"
+              src="/src/assets/imgs/cases-section/case-1.webp"
               alt="Myriad Beauty Case Photo"
             />
             <div class="cases__item-content">
@@ -20,7 +20,7 @@
               </div>
             </div>
             <div class="cases__item-logo">
-              <img src="src/assets/imgs/cases-section/myriad-logo.svg" alt="myriad-logo" />
+              <img src="/src/assets/imgs/cases-section/myriad-logo.svg" alt="myriad-logo" />
             </div>
           </div>
         </Slide>
@@ -28,7 +28,7 @@
           <div class="cases__item">
             <img
               class="cases__item-img"
-              src="src/assets/imgs/cases-section/case-2.webp"
+              src="/src/assets/imgs/cases-section/case-2.webp"
               alt="Adobe Case Photo"
             />
             <div class="cases__item-content">
@@ -41,7 +41,7 @@
               </div>
             </div>
             <div class="cases__item-logo">
-              <img src="src/assets/imgs/cases-section/adobe-logo.svg" alt="adobe-logo" />
+              <img src="/src/assets/imgs/cases-section/adobe-logo.svg" alt="adobe-logo" />
             </div>
           </div>
         </Slide>
@@ -49,7 +49,7 @@
           <div class="cases__item">
             <img
               class="cases__item-img"
-              src="src/assets/imgs/cases-section/case-1.webp"
+              src="/src/assets/imgs/cases-section/case-1.webp"
               alt="Myriad Beauty Case Photo"
             />
             <div class="cases__item-content">
@@ -62,7 +62,7 @@
               </div>
             </div>
             <div class="cases__item-logo">
-              <img src="src/assets/imgs/cases-section/myriad-logo.svg" alt="myriad-logo" />
+              <img src="/src/assets/imgs/cases-section/myriad-logo.svg" alt="myriad-logo" />
             </div>
           </div>
         </Slide>
@@ -70,7 +70,7 @@
           <div class="cases__item">
             <img
               class="cases__item-img"
-              src="src/assets/imgs/cases-section/case-2.webp"
+              src="/src/assets/imgs/cases-section/case-2.webp"
               alt="Adobe Case Photo"
             />
             <div class="cases__item-content">
@@ -83,7 +83,7 @@
               </div>
             </div>
             <div class="cases__item-logo">
-              <img src="src/assets/imgs/cases-section/adobe-logo.svg" alt="adobe-logo" />
+              <img src="/src/assets/imgs/cases-section/adobe-logo.svg" alt="adobe-logo" />
             </div>
           </div>
         </Slide>

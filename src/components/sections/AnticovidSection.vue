@@ -12,7 +12,7 @@
       </div>
       <img
         class="anticovid__photo"
-        src="src/assets/imgs/anticovid-section/anticovid-photo.webp"
+        src="/src/assets/imgs/anticovid-section/anticovid-photo.webp"
         alt="anticovid photo"
       />
     </div>

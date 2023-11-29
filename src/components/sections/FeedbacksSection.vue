@@ -6,7 +6,7 @@
         <slide class="feedbacks__item">
           <img
             class="feedbacks__img"
-            src="src/assets/imgs/feedbacks-section/feedback-photo.webp"
+            src="/src/assets/imgs/feedbacks-section/feedback-photo.webp"
             alt="Feedback photo"
           />
           <div class="feedbacks__content">
@@ -24,7 +24,7 @@
         <slide class="feedbacks__item">
           <img
             class="feedbacks__img"
-            src="src/assets/imgs/feedbacks-section/feedback-photo.webp"
+            src="/src/assets/imgs/feedbacks-section/feedback-photo.webp"
             alt="Feedback photo"
           />
           <div class="feedbacks__content">
@@ -42,7 +42,7 @@
         <slide class="feedbacks__item">
           <img
             class="feedbacks__img"
-            src="src/assets/imgs/feedbacks-section/feedback-photo.webp"
+            src="/src/assets/imgs/feedbacks-section/feedback-photo.webp"
             alt="Feedback photo"
           />
           <div class="feedbacks__content">

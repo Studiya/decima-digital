@@ -7,13 +7,13 @@
           <ul class="achievments__list">
             <li class="achievments__item">
               <img
-                src="src/assets/imgs/achievments-section/ecommerce-achiev.webp"
+                src="/src/assets/imgs/achievments-section/ecommerce-achiev.webp"
                 alt="Best Ecommerce design achievment"
               />
             </li>
             <li class="achievments__item">
               <img
-                src="src/assets/imgs/achievments-section/top-achiev.webp"
+                src="/src/assets/imgs/achievments-section/top-achiev.webp"
                 alt="Top Ecommerce Development Company achievment"
               />
             </li>
@@ -21,13 +21,13 @@
           <ul class="achievments__list">
             <li class="achievments__item">
               <img
-                src="src/assets/imgs/achievments-section/clutch-achiev.webp"
+                src="/src/assets/imgs/achievments-section/clutch-achiev.webp"
                 alt="Clutch achievment"
               />
             </li>
             <li class="achievments__item">
               <img
-                src="src/assets/imgs/achievments-section/agency-achiev.webp"
+                src="/src/assets/imgs/achievments-section/agency-achiev.webp"
                 alt="Agency achievment"
               />
             </li>

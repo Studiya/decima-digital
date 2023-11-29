@@ -12,17 +12,17 @@
       <ul class="main-hero__partners">
         <li class="main-hero__logo main-hero__logo_magento">
           <a href="#"
-            ><img src="src/assets/imgs/main-hero-section/magento-logo.svg" alt="magento logo"
+            ><img src="/src/assets/imgs/main-hero-section/magento-logo.svg" alt="magento logo"
           /></a>
         </li>
         <li class="main-hero__logo main-hero__logo_microsoft">
           <a href="#"
-            ><img src="src/assets/imgs/main-hero-section/microsoft-logo.svg" alt="microsoft logo"
+            ><img src="/src/assets/imgs/main-hero-section/microsoft-logo.svg" alt="microsoft logo"
           /></a>
         </li>
         <li class="main-hero__logo main-hero__logo_adobe">
           <a href="#"
-            ><img src="src/assets/imgs/main-hero-section/adobe-logo.svg" alt="adobe logo"
+            ><img src="/src/assets/imgs/main-hero-section/adobe-logo.svg" alt="adobe logo"
           /></a>
         </li>
       </ul>

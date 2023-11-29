@@ -11,7 +11,7 @@
         <li class="advantages__item">
           <img
             class="advantages__item-img"
-            src="src/assets/imgs/advantages-section/slice-1.webp"
+            src="/src/assets/imgs/advantages-section/slice-1.webp"
             alt="Magento Commerce logo"
           />
           <h3 class="advantages__item-title">Magento Contribution Partner</h3>
@@ -22,7 +22,7 @@
         <li class="advantages__item">
           <img
             class="advantages__item-img"
-            src="src/assets/imgs/advantages-section/slice-2.webp"
+            src="/src/assets/imgs/advantages-section/slice-2.webp"
             alt="An event speaker photo"
           />
           <h3 class="advantages__item-title">Magento Events Speaker</h3>
@@ -34,7 +34,7 @@
         <li class="advantages__item">
           <img
             class="advantages__item-img"
-            src="src/assets/imgs/advantages-section/slice-3.webp"
+            src="/src/assets/imgs/advantages-section/slice-3.webp"
             alt="Magento top pioneers image"
           />
           <h3 class="advantages__item-title">Magento Top Pioneers</h3>
