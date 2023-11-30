@@ -12,9 +12,8 @@ const props = defineProps({
   }
 })
 
-// feel free to update this with an svg directory of your choice
 const icon = defineAsyncComponent(
-  () => import(/* @vite-ignore */ `/src/assets/imgs/${props.name}.svg#${props.setSymbol}`)
+  () => import(`/src/assets/imgs/${props.name}.svg#${props.setSymbol}`)
 )
 </script>
 
