@@ -6,7 +6,7 @@ const props = defineProps({
     type: String,
     required: true
   },
-  iconSetName: {
+  setSymbol: {
     type: String,
     required: false
   }
@@ -14,7 +14,7 @@ const props = defineProps({
 
 // feel free to update this with an svg directory of your choice
 const icon = defineAsyncComponent(
-  () => import(/* @vite-ignore */ `/src/assets/imgs/${props.name}.svg#${props.iconSetName}`)
+  () => import(/* @vite-ignore */ `/src/assets/imgs/${props.name}.svg#${props.setSymbol}`)
 )
 </script>
 

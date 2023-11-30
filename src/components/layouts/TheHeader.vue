@@ -2,10 +2,11 @@
   <header class="header">
     <div class="header__wrapper">
       <a class="header__logo" href="#">
-        <svg class="header__menu-btn-icon">
+        <svg>
           <use href="/src/assets/imgs/icons.svg#icon-logo"></use>
         </svg>
-        <!-- <SvgIcon class="header__menu-btn-icon" name="icons" iconSetName="icon-logo" /> -->
+        <!-- <SvgIcon class="header__menu-btn-icon" name="icons" setSymbol="icon-logo" /> -->
+        <SvgIcon class="header__logo" name="header/logo-main" />
       </a>
       <div class="header__content">
         <ul class="header__nav">
