@@ -4,7 +4,7 @@
       <a class="header__logo" href="#">
         <!-- <SvgIcon class="header__logo" name="header/logo-main" /> -->
         <svg>
-          <use href="imgs/icons.svg#icon-logo"></use>
+          <use href="/imgs/icons.svg#icon-logo"></use>
         </svg>
       </a>
       <div class="header__content">
@@ -22,7 +22,7 @@
           class="header__menu-btn"
         >
           <svg class="header__menu-btn-icon">
-            <use href="imgs/icons.svg#icon-menu-icon"></use>
+            <use href="/imgs/icons.svg#icon-menu-icon"></use>
           </svg>
         </button>
         <button type="button" class="header__btn btn btn-light">Get in touch</button>
@@ -36,13 +36,13 @@
         type="button"
       >
         <svg>
-          <use href="imgs/icons.svg#icon-cross"></use>
+          <use href="/imgs/icons.svg#icon-cross"></use>
         </svg>
       </button>
       <div class="mobile-menu__wrapper">
         <a class="mobile-menu__logo" href="/">
           <svg>
-            <use href="imgs/icons.svg#icon-logo"></use>
+            <use href="/imgs/icons.svg#icon-logo"></use>
           </svg>
         </a>
         <nav class="mobile-menu__nav">

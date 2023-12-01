@@ -20,7 +20,7 @@
               </div>
             </div>
             <div class="cases__item-logo">
-              <img src="imgs/cases-section/myriad-logo.svg" alt="myriad-logo" />
+              <img src="/imgs/cases-section/myriad-logo.svg" alt="myriad-logo" />
             </div>
           </div>
         </Slide>
@@ -41,7 +41,7 @@
               </div>
             </div>
             <div class="cases__item-logo">
-              <img src="imgs/cases-section/adobe-logo.svg" alt="adobe-logo" />
+              <img src="/imgs/cases-section/adobe-logo.svg" alt="adobe-logo" />
             </div>
           </div>
         </Slide>
@@ -62,7 +62,7 @@
               </div>
             </div>
             <div class="cases__item-logo">
-              <img src="imgs/cases-section/myriad-logo.svg" alt="myriad-logo" />
+              <img src="/imgs/cases-section/myriad-logo.svg" alt="myriad-logo" />
             </div>
           </div>
         </Slide>
@@ -83,7 +83,7 @@
               </div>
             </div>
             <div class="cases__item-logo">
-              <img src="imgs/cases-section/adobe-logo.svg" alt="adobe-logo" />
+              <img src="/imgs/cases-section/adobe-logo.svg" alt="adobe-logo" />
             </div>
           </div>
         </Slide>

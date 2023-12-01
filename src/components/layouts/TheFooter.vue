@@ -9,25 +9,25 @@
               <li class="footer__soc-item">
                 <a href="#">
                   <svg class="footer__soc-fb">
-                    <use href="imgs/icons.svg#icon-facebook"></use></svg
+                    <use href="/imgs/icons.svg#icon-facebook"></use></svg
                 ></a>
               </li>
               <li class="footer__soc-item">
                 <a href="#"
                   ><svg class="footer__soc-inst">
-                    <use href="imgs/icons.svg#icon-instagram"></use></svg
+                    <use href="/imgs/icons.svg#icon-instagram"></use></svg
                 ></a>
               </li>
               <li class="footer__soc-item">
                 <a href="#"
                   ><svg class="footer__soc-tw">
-                    <use href="imgs/icons.svg#icon-twitter"></use></svg
+                    <use href="/imgs/icons.svg#icon-twitter"></use></svg
                 ></a>
               </li>
               <li class="footer__soc-item">
                 <a href="#"
                   ><svg class="footer__soc-link">
-                    <use href="imgs/icons.svg#icon-linkedin"></use></svg
+                    <use href="/imgs/icons.svg#icon-linkedin"></use></svg
                 ></a>
               </li>
             </ul>
