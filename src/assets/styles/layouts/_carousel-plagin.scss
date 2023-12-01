@@ -21,7 +21,7 @@ button.carousel__prev,
 button.carousel__next {
   width: 23px;
   height: 46px;
-  @include backgroundImg("src/assets/imgs/carousel-arrow.svg", center, cover, no-repeat);
+  @include backgroundImg("/imgs/carousel-arrow.svg", center, cover, no-repeat);
 
   @media screen and (max-width: $bp-tablet) {
     display: none;

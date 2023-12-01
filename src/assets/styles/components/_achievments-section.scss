@@ -15,7 +15,7 @@
   }
 
   &__inner {
-    @include backgroundImg("src/assets/imgs/achievments-section/achievs-bg.webp", center, content, no-repeat);
+    @include backgroundImg("@/assets/imgs/achievments-section/achievs-bg.webp", center, content, no-repeat);
     padding: 66px 0 87px;
 
     @media screen and (max-width: $bp-tablet) {
