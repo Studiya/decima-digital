@@ -17,61 +17,61 @@ let partnersList = [
   {
     id: 0,
     link: '#',
-    image: '/src/assets/imgs/main-partners-section/magento.svg',
+    image: 'imgs/main-partners-section/magento.svg',
     alt: 'Magento partner'
   },
   {
     id: 1,
     link: '#',
-    image: '/src/assets/imgs/main-partners-section/adobe.svg',
+    image: 'imgs/main-partners-section/adobe.svg',
     alt: 'Adobe partner'
   },
   {
     id: 2,
     link: '#',
-    image: '/src/assets/imgs/main-partners-section/Logotech.svg',
+    image: 'imgs/main-partners-section/logotech.svg',
     alt: 'Logotech partner'
   },
   {
     id: 3,
     link: '#',
-    image: '/src/assets/imgs/main-partners-section/google.svg',
+    image: 'imgs/main-partners-section/google.svg',
     alt: 'Google partner'
   },
   {
     id: 4,
     link: '#',
-    image: '/src/assets/imgs/main-partners-section/microsoft.svg',
+    image: 'imgs/main-partners-section/microsoft.svg',
     alt: 'Microsoft partner'
   },
   {
     id: 5,
     link: '#',
-    image: '/src/assets/imgs/main-partners-section/afterpay.svg',
+    image: 'imgs/main-partners-section/afterpay.svg',
     alt: 'Afterpay partner'
   },
   {
     id: 6,
     link: '#',
-    image: '/src/assets/imgs/main-partners-section/save.svg',
+    image: 'imgs/main-partners-section/save.svg',
     alt: 'Comp and Save partner'
   },
   {
     id: 7,
     link: '#',
-    image: '/src/assets/imgs/main-partners-section/Zoho.svg',
+    image: 'imgs/main-partners-section/zoho.svg',
     alt: 'Zoho partner'
   },
   {
     id: 8,
     link: '#',
-    image: '/src/assets/imgs/main-partners-section/Freshfarm.svg',
+    image: 'imgs/main-partners-section/freshfarm.svg',
     alt: 'Freshfarm.it'
   },
   {
     id: 9,
     link: '#',
-    image: '/src/assets/imgs/main-partners-section/myriad.svg',
+    image: 'imgs/main-partners-section/myriad.svg',
     alt: 'Myriad Beauty'
   }
 ]
