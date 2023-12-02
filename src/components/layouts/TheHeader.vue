@@ -2,7 +2,7 @@
   <header class="header">
     <div class="header__wrapper">
       <a class="header__logo" href="#">
-        <SvgIcon class="pasha_bandit" name="header/logo-main" />
+        <SvgIcon class="pasha_bandit" name="header/menu-icon" />
         <svg>
           <use href="/imgs/icons.svg#icon-logo"></use>
         </svg>
