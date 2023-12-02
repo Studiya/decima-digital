@@ -10,11 +10,11 @@ const props = defineProps({
   setSymbol: {
     type: String,
     required: false,
-    defualt: ''
+    default: ''
   }
 })
 
-const icon = defineAsyncComponent(() => import(`imgs/${props.name}.svg`))
+const icon = defineAsyncComponent(() => import(`/src/assets/imgs/${props.name}.svg`))
 </script>
 
 <template>
